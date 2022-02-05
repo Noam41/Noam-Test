@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951484B227AE1360008DC1FF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 951484B127AE1360008DC1FF /* Lottie */; };
+		951484B627AE17C6008DC1FF /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 951484B527AE17C6008DC1FF /* loader.json */; };
+		957D39B927AE0BD5008B016B /* SinglePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D39B827AE0BD5008B016B /* SinglePhotoViewController.swift */; };
+		957F3B0E27ADB90200A71F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F3B0D27ADB90200A71F08 /* AppDelegate.swift */; };
+		957F3B1027ADB90200A71F08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F3B0F27ADB90200A71F08 /* SceneDelegate.swift */; };
+		957F3B1227ADB90200A71F08 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F3B1127ADB90200A71F08 /* MainViewController.swift */; };
+		957F3B1527ADB90200A71F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957F3B1327ADB90200A71F08 /* Main.storyboard */; };
+		957F3B1727ADB90200A71F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957F3B1627ADB90200A71F08 /* Assets.xcassets */; };
+		957F3B1A27ADB90200A71F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957F3B1827ADB90200A71F08 /* LaunchScreen.storyboard */; };
+		957F3B2327ADB9A100A71F08 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 957F3B2227ADB9A100A71F08 /* Kingfisher */; };
+		957F3B2627ADBC8000A71F08 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 957F3B2527ADBC8000A71F08 /* Alamofire */; };
+		957F3B2827ADC26A00A71F08 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F3B2727ADC26A00A71F08 /* MainScreenViewModel.swift */; };
+		957F3B2B27ADCF2900A71F08 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F3B2A27ADCF2900A71F08 /* FlickrAPI.swift */; };
+		957F3B2E27ADEC3600A71F08 /* Observable in Frameworks */ = {isa = PBXBuildFile; productRef = 957F3B2D27ADEC3600A71F08 /* Observable */; };
+		957F3B3727ADFE1800A71F08 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F3B3627ADFE1800A71F08 /* PhotosCollectionViewCell.swift */; };
+		95CE57DB27AEBC190004614A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE57DA27AEBC190004614A /* Photo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		951484B527AE17C6008DC1FF /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
+		957D39B827AE0BD5008B016B /* SinglePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePhotoViewController.swift; sourceTree = "<group>"; };
+		957F3B0A27ADB90200A71F08 /* NoamTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoamTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		957F3B0D27ADB90200A71F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		957F3B0F27ADB90200A71F08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		957F3B1127ADB90200A71F08 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		957F3B1427ADB90200A71F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		957F3B1627ADB90200A71F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		957F3B1927ADB90200A71F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		957F3B1B27ADB90200A71F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957F3B2727ADC26A00A71F08 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		957F3B2A27ADCF2900A71F08 /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		957F3B3627ADFE1800A71F08 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		95CE57DA27AEBC190004614A /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		957F3B0727ADB90200A71F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957F3B2327ADB9A100A71F08 /* Kingfisher in Frameworks */,
+				957F3B2E27ADEC3600A71F08 /* Observable in Frameworks */,
+				957F3B2627ADBC8000A71F08 /* Alamofire in Frameworks */,
+				951484B227AE1360008DC1FF /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		957F3B0127ADB90200A71F08 = {
+			isa = PBXGroup;
+			children = (
+				957F3B0C27ADB90200A71F08 /* NoamTest */,
+				957F3B0B27ADB90200A71F08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		957F3B0B27ADB90200A71F08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				957F3B0A27ADB90200A71F08 /* NoamTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		957F3B0C27ADB90200A71F08 /* NoamTest */ = {
+			isa = PBXGroup;
+			children = (
+				957F3B2927ADCF0900A71F08 /* Networking */,
+				95CE57D927AEBBD50004614A /* Models */,
+				957F3B2F27ADF27C00A71F08 /* UI */,
+				957F3B0D27ADB90200A71F08 /* AppDelegate.swift */,
+				957F3B0F27ADB90200A71F08 /* SceneDelegate.swift */,
+				951484B527AE17C6008DC1FF /* loader.json */,
+				957F3B1627ADB90200A71F08 /* Assets.xcassets */,
+				957F3B1827ADB90200A71F08 /* LaunchScreen.storyboard */,
+				957F3B1B27ADB90200A71F08 /* Info.plist */,
+			);
+			path = NoamTest;
+			sourceTree = "<group>";
+		};
+		957F3B2927ADCF0900A71F08 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				957F3B2A27ADCF2900A71F08 /* FlickrAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		957F3B2F27ADF27C00A71F08 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				957F3B3027ADF28600A71F08 /* MainScreen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		957F3B3027ADF28600A71F08 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				957F3B3127ADF29700A71F08 /* Cells */,
+				957F3B1327ADB90200A71F08 /* Main.storyboard */,
+				957F3B1127ADB90200A71F08 /* MainViewController.swift */,
+				957F3B2727ADC26A00A71F08 /* MainScreenViewModel.swift */,
+				957D39B827AE0BD5008B016B /* SinglePhotoViewController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		957F3B3127ADF29700A71F08 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				957F3B3627ADFE1800A71F08 /* PhotosCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		95CE57D927AEBBD50004614A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95CE57DA27AEBC190004614A /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		957F3B0927ADB90200A71F08 /* NoamTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957F3B1E27ADB90200A71F08 /* Build configuration list for PBXNativeTarget "NoamTest" */;
+			buildPhases = (
+				957F3B0627ADB90200A71F08 /* Sources */,
+				957F3B0727ADB90200A71F08 /* Frameworks */,
+				957F3B0827ADB90200A71F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoamTest;
+			packageProductDependencies = (
+				957F3B2227ADB9A100A71F08 /* Kingfisher */,
+				957F3B2527ADBC8000A71F08 /* Alamofire */,
+				957F3B2D27ADEC3600A71F08 /* Observable */,
+				951484B127AE1360008DC1FF /* Lottie */,
+			);
+			productName = NoamTest;
+			productReference = 957F3B0A27ADB90200A71F08 /* NoamTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		957F3B0227ADB90200A71F08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					957F3B0927ADB90200A71F08 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 957F3B0527ADB90200A71F08 /* Build configuration list for PBXProject "NoamTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 957F3B0127ADB90200A71F08;
+			packageReferences = (
+				957F3B2127ADB9A100A71F08 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				957F3B2427ADBC8000A71F08 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				957F3B2C27ADEC3600A71F08 /* XCRemoteSwiftPackageReference "Observable" */,
+				951484B027AE1360008DC1FF /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 957F3B0B27ADB90200A71F08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				957F3B0927ADB90200A71F08 /* NoamTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		957F3B0827ADB90200A71F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957F3B1A27ADB90200A71F08 /* LaunchScreen.storyboard in Resources */,
+				957F3B1727ADB90200A71F08 /* Assets.xcassets in Resources */,
+				957F3B1527ADB90200A71F08 /* Main.storyboard in Resources */,
+				951484B627AE17C6008DC1FF /* loader.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		957F3B0627ADB90200A71F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CE57DB27AEBC190004614A /* Photo.swift in Sources */,
+				957F3B1227ADB90200A71F08 /* MainViewController.swift in Sources */,
+				957D39B927AE0BD5008B016B /* SinglePhotoViewController.swift in Sources */,
+				957F3B2827ADC26A00A71F08 /* MainScreenViewModel.swift in Sources */,
+				957F3B0E27ADB90200A71F08 /* AppDelegate.swift in Sources */,
+				957F3B1027ADB90200A71F08 /* SceneDelegate.swift in Sources */,
+				957F3B2B27ADCF2900A71F08 /* FlickrAPI.swift in Sources */,
+				957F3B3727ADFE1800A71F08 /* PhotosCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		957F3B1327ADB90200A71F08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957F3B1427ADB90200A71F08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		957F3B1827ADB90200A71F08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957F3B1927ADB90200A71F08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		957F3B1C27ADB90200A71F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		957F3B1D27ADB90200A71F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		957F3B1F27ADB90200A71F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7R9V75JW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoamTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoamTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		957F3B2027ADB90200A71F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7R9V75JW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoamTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoamTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		957F3B0527ADB90200A71F08 /* Build configuration list for PBXProject "NoamTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957F3B1C27ADB90200A71F08 /* Debug */,
+				957F3B1D27ADB90200A71F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957F3B1E27ADB90200A71F08 /* Build configuration list for PBXNativeTarget "NoamTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957F3B1F27ADB90200A71F08 /* Debug */,
+				957F3B2027ADB90200A71F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		951484B027AE1360008DC1FF /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		957F3B2127ADB9A100A71F08 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		957F3B2427ADBC8000A71F08 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		957F3B2C27ADEC3600A71F08 /* XCRemoteSwiftPackageReference "Observable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/Observable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		951484B127AE1360008DC1FF /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 951484B027AE1360008DC1FF /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		957F3B2227ADB9A100A71F08 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 957F3B2127ADB9A100A71F08 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		957F3B2527ADBC8000A71F08 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 957F3B2427ADBC8000A71F08 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		957F3B2D27ADEC3600A71F08 /* Observable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 957F3B2C27ADEC3600A71F08 /* XCRemoteSwiftPackageReference "Observable" */;
+			productName = Observable;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 957F3B0227ADB90200A71F08 /* Project object */;
+}
